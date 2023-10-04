@@ -1,6 +1,6 @@
 {% set classes = [
   'message',
-  'is-' ~ content.field_type.0['#markup']|clean_class,
+  'is-' ~ notice_type|clean_class,
 ] %}
 
 <article{{ attributes.addClass(classes) }}>

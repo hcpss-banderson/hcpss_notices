@@ -1,0 +1,11 @@
+{% set classes = [
+  'message',
+  'is-' ~ content.field_type.0['#markup']|clean_class,
+] %}
+
+<article{{ attributes.addClass(classes) }}>
+  <div class="message-body">
+    {{ content.body }}
+  </div>
+  {{ title_suffix }}
+</article>

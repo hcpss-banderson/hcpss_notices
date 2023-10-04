@@ -1,0 +1,9 @@
+name: HCPSS Notices
+type: module
+description: Add site wide notice functionality.
+package: HCPSS
+core_version_requirement: ^9 || ^10
+dependencies:
+  - scheduler
+  - node
+  - views

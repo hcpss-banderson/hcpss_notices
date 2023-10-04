@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for HCPSS Notices module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function hcpss_notices_theme($existing, $type, $theme, $path) {
+
+}

@@ -1,0 +1,15 @@
+{
+    "name": "drupal/hcpss_notices",
+    "description": "Add site wide notice functionality.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Brendan Anderson",
+            "email": "brendan_anderson@hcpss.org"
+        }
+    ],
+    "require": {
+        "drupal/scheduler": "^2.0"
+    }
+}
